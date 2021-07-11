@@ -5,18 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Midterm Exam </title>
     <link rel = "stylesheet" href = "css/reset.css">
-    <link rel = "stylesheet" href = "css/style.css"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Display heading on the background image -->
-    <div class = "background_image">
+    <!-- Section 1 - Logo, Navigation and the heading -->
+    <section class = "section1">
         <header class = "container header">
-            <h2 class = "header_heading"> About Us </h2>
+            <!-- Logo -->
+            <div class = "logo">
+                <a href = "index.html">
+                    <img src = "images/logo .svg" alt = "logo">
+                </a>
+            </div>
+
+            <!-- Navigation-->
+            <nav>
+                <ul class = "nav_ul">
+                    <li class = "nav_li">
+                        <a href = "index.html"> HOME </a>
+                    </li>
+
+                    <li class = "nav_li">
+                        <a href = "#"> ROOMS </a>
+                    </li>
+
+                    <li class = "nav_li">
+                        <a href = "#"> RESTAURANT </a>
+                    </li>
+
+                    <li class = "nav_li">
+                        <a href = "#"> ABOUT US </a>
+                    </li>
+
+                    <li class = "nav_li">
+                        <a href = "#"> BLOG </a>
+                    </li>
+
+                    <li class = "nav_li">
+                        <a href = "#"> CONTACT </a>
+                    </li>
+                </ul>
+            </nav>
         </header>
-    </div>
+
+        <h2 class = "container header_heading"> About Us </h2>
+    </section>
 
     <!-- Section 2 - Text and Image Blocks -->
     <section class = "container section2">
@@ -34,6 +68,43 @@
             <img class = "image1" src = "images/sec2-image1.png" alt = "image">
             <img class = "image2" src = "images/sec2-image2.png" alt = "image">
             <img class = "image3" src = "images/sec2-image3.png" alt = "image">
+        </div>
+    </section>
+
+    <!-- Section 3 - Blocks -->
+    <section class = "section3">
+        <div class = "container">
+            <div class = "section3_text">
+                <h5 class = "section3_h5"> ABOUT US </h5>
+                <h3 class = "section3_h3"> We bring you the finest details </h3>
+            </div>
+            
+            <div class = "section3_blocks">
+                <div class = "block">
+                    <img src ="images/blocks-image.svg" alt = "image">
+                    <h4 class = "block_h4"> Free Wifi to stay connected </h4>
+                    <p class = "block_p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+                </div>
+
+                <div class = "block">
+                    <img src ="images/blocks-image.svg" alt = "image">
+                    <h4 class = "block_h4"> 4K Television and Netflix included </h4>
+                    <p class = "block_p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+                </div>
+
+                <div class = "block">
+                    <img src ="images/blocks-image.svg" alt = "image">
+                    <h4 class = "block_h4"> Span zone where you can chill </h4>
+                    <p class = "block_p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+                </div>
+
+                <div class = "block">
+                    <img src ="images/blocks-image.svg" alt = "image">
+                    <h4 class = "block_h4"> Spacious rooms for awesome parties </h4>
+                    <p class = "block_p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+                </div>
+
+            </div>
         </div>
     </section>
 </body>
