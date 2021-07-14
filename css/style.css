@@ -5,6 +5,7 @@
     height: 324px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     position: relative;
 }
 
@@ -153,6 +154,7 @@
     height: 612px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin-top: 90px;
 }
 

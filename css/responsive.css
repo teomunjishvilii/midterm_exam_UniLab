@@ -1,10 +1,10 @@
 @media(max-width: 1388) {
     .section1 {
-        width: 100%;
+        width: auto;
     }
 
     .section3 {
-        width: 100%;
+        width: auto;
     }
 }
 
