@@ -35,10 +35,25 @@
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    position: relative;
 }
 
-.nav_li a:first-child {
+.nav_li:first-child a {
     color: #5863F8;
+}
+
+.nav_li a:hover {
+    font-size: 15px;
+    text-decoration: underline;
+}
+  
+.hamburger_menu {
+    width: 30px;
+    display: none;
+}
+
+.hamburger_menu img {
+    width: 100%;
 }
 
 /* Heading on the image */
@@ -165,6 +180,7 @@
 .section3_blocks {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
     margin: 0 auto;
     margin-top: 38px;

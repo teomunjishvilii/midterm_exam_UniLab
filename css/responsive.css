@@ -1,0 +1,279 @@
+@media(max-width: 1388) {
+    .section1 {
+        max-width: 1388px;
+        width: 100%;
+    }
+
+    .section3 {
+        max-width: 1388px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 1285) {
+    .section2_text {
+        max-width: 350px;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .section2_h5 {
+        width: auto;
+        font-size: 13px;
+    }
+
+    .section2_h3 {
+        width: auto;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1248px) {
+    .section1 {
+        max-width: 1248px;
+        width: 100%;
+    }
+
+    .section3 {
+        max-width: 1248px;
+        width: 100%;  
+    }
+}
+
+@media (max-width: 1180px) {
+    .section2 {
+        justify-content: space-around;
+    }
+
+    .section2_images {
+        width: 400px;
+    }
+
+    .section2_images img:first-child {
+        width: 190px;
+    }
+
+    .section2_images img:nth-child(2) {
+        width: 190px;
+    }
+
+    .section2_images img:last-child {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .section3 {
+        height: 850px;
+    }
+
+    .section3_blocks {
+        width: 600px;
+    }
+
+    .block:nth-child(3) {
+        margin-top: 25px;
+    }
+
+    .block:last-child {
+        margin-top: 25px;
+    }
+
+    .text_container {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 1140px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 970px) {
+    .section2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .section2_text {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .section2_images img:first-child {
+        width: 260px;
+    }
+
+    .section2_images img:nth-child(2) {
+        width: 260px;
+    }
+
+    .section2_images img:last-child {
+        width: 536px;
+    }
+
+    .section2_images {
+        width: 536px;
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 735px) {
+    .nav_ul {
+        display: none;
+    }
+
+    .hamburger_menu {
+        display: block;
+        margin-right: 30px;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 645px) {
+    .section3_blocks {
+        width: 300px;
+        padding-bottom: 50px;
+    }
+
+    .block:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    .section3 {
+        height: 1400px;
+    }
+
+    .text_container {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section3_h5 {
+        font-size: 15px;
+    }
+    
+    .section3_h3 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 550px) {
+    .section2_text {
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .section2_h3 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 470px) {
+    .header_heading{
+        max-width: 200px;
+        font-size: 40px;
+    }
+
+    .section2_text {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .section2_h3 {
+        font-size: 36px;
+    }
+
+    .section2_images {
+        max-width: 380px;
+    }
+
+    .section2_images img:first-child {
+        width: 47%;
+    }
+
+    .section2_images img:nth-child(2) {
+        width: 47%;
+    }
+
+    .section2_images img:last-child {
+        width: 100%;
+    }
+
+    .section3_blocks {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .header_heading {
+        left: 50%;
+        transform:translateX(-50%);
+
+    }
+
+    .section2_text {
+        max-width: 380px;
+        width: 100%;
+    }
+
+    .section2_h5 {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 400px) {
+    .section2_text {
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .section2_images {
+        max-width: 350px;
+    }
+}
+
+@media(max-width: 350px) {
+    .section2_text {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .section2_h3 {
+        font-size: 32px;
+    }
+
+    .section2_p1 {
+        font-size: 15px;
+    }
+
+    .section2_p2 {
+        font-size: 13px;
+    }
+
+    .section2_images {
+        max-width: 300px;
+    }
+}
