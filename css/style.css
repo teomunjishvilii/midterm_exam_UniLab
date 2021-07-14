@@ -48,6 +48,7 @@
     text-decoration: underline;
 }
 
+/* hamburger menu icon & hidden nav menu */
 .hamburger_menu {
     display: none;
 }
