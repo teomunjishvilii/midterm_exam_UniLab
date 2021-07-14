@@ -47,14 +47,43 @@
     font-size: 15px;
     text-decoration: underline;
 }
-  
+
 .hamburger_menu {
-    width: 30px;
+    display: none;
+}
+  
+.burger_menu_icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+.hidden_nav {
+    position: fixed;
+    z-index: 3;
+    width: 30%;
+    height: auto;
+    top: 60px;
+    left: 0px;
+    padding: 50px;
+    background-color: #5863f8;
     display: none;
 }
 
-.hamburger_menu img {
-    width: 100%;
+.hidden_nav li{
+    margin-top: 30px;
+}
+
+.hidden_nav li a{
+    font-size: 20px;
+}
+
+.hidden_nav li:first-child a {
+    color: #fff;
+}
+
+.burger_menu_icon:hover .hidden_nav{
+    display: block;
+    transition: 2s;
 }
 
 /* Heading on the image */
@@ -63,6 +92,7 @@
     line-height: 56px;
     color: #FFFFFF;
     position: absolute;
+    z-index: 2;
     top: 145px;
     left: 175px;
     font-family: 'Poppins', sans-serif;

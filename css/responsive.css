@@ -1,4 +1,4 @@
-@media(max-width: 1388) {
+/* @media(max-width: 1388) {
     .section1 {
         width: auto;
     }
@@ -6,7 +6,7 @@
     .section3 {
         width: auto;
     }
-}
+} */
 
 @media(max-width: 1200px) {
     .container {
