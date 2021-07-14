@@ -60,7 +60,7 @@
 .hidden_nav {
     position: fixed;
     z-index: 3;
-    width: 30%;
+    width: auto;
     height: auto;
     top: 60px;
     left: 0px;
@@ -81,9 +81,8 @@
     color: #fff;
 }
 
-.burger_menu_icon:hover .hidden_nav{
+.hamburger_menu:hover .hidden_nav{
     display: block;
-    transition: 2s;
 }
 
 /* Heading on the image */
